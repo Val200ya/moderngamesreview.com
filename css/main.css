@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 320vh;
+    background-color: #191A1D;
+}
+
+.header-foreground {
+    width: 75%;
+    height: 280vh;
+    background-color: #2F3A4A;
+    position: absolute;
+    margin-left: 185px;
+    margin-top: 350px;
+}
+
+/* .logo {
+
+} */
+
+a {
+    text-decoration: underline;
+    color: #fff;
+}
+
+h1 {
+    margin-top: 45px;
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+}
+
+.h1-under {
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.main-text {
+    margin-top: 30px;
+    margin-left: 45px;
+    margin-right: 45px;
+    color: #fff;
+    font-size: 25px;
+    text-align: justify;
+    text-indent: 38px;
+    line-height: 38px;
+}
+
+.text-question {
+    margin-top: 30px;
+    margin-left: 45px;
+    color: #fff;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 38px;
+}
+
+.everhood-logo {
+    background-image: url(/css/img/EverhoodLogo.png);
+    background-size: 410px;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 10%;
+    position: absolute;
+    margin-left: 90px;
+}
+
+.kirby-logo {
+    background-image: url(/css/img/KirbyLogo.png);
+    background-size: 375px;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 10%;
+    position: absolute;
+    margin-left: 625px;
+    margin-top: 35px;
+}
+
+.madratdead-logo {
+    background-image: url(/css/img/MadRatDeadLogo.png);
+    background-size: 400px;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 13%;
+    position: absolute;
+    margin-left: 90px;
+    margin-top: 200px;
+}
+
+.omori-logo {
+    background-image: url(/css/img/OMORIlogo.png);
+    background-size: 375px;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 10%;
+    position: absolute;
+    margin-left: 625px;
+    margin-top: 240px;
+}
+
+.pizzatower-logo {
+    background-image: url(/css/img/PizzaTowerlogo.png);
+    background-size: 375px;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 10%;
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 465px;
+}
+
+.h1-under-img {
+    margin-top: 775px;
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #191A1D;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+    font-size: 32px;
+}
