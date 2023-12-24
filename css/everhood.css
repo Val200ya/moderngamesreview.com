@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header-everhood {
+    width: 100%;
+    height: 1005vh;
+    background-color: black;
+}
+
+.header-foreground-everhood {
+    width: 75%;
+    background-color: #39352a;
+    height: 965vh;
+    position: absolute;
+    margin-left: 184px;
+    margin-top: 350px;
+}
+
+.everhood-logo {
+    background-image: url(/css/img/GameLogos/EverhoodLogo.png);
+    background-size: 650px;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 4%;
+    position: absolute;
+    margin-left: 225px;
+    margin-top: -41px;
+}
+
+.fun-fact-background1 {
+    margin-left: 60px;
+    margin-top: 40px;
+    background: #0e1824;
+    width: 720px;
+    height: 250px;
+    border-width: thick;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+}
+
+.fun-fact-background-char-desc {
+    margin-left: 61px;
+    margin-top: 40px;
+    background: #0e1824;
+    width: 850px;
+    height: 625px;
+    border-width: thick;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+}
+
+.smol-text {
+    margin-left: 485px;
+    margin-top: 50px;
+    color: #fff;
+    font-size: 16px;
+    text-align: justify;
+    text-indent: 38px;
+    line-height: 38px;
+}
+
+.dev-gnomes-img {
+    background-image: url(/css/img/Everhood/Battle_Sprite_Dev_Gnomes.png);
+    background-size: 500px;
+    margin-left: 240px;
+    margin-top: 30px;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 3%;
+    position: absolute;
+}
+
+.text-under-img-dev-gnomes {
+    color: darkgrey;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 260px;
+    margin-left: 138px;
+}
+
+.text-under-img-char-desc {
+    color: darkgrey;
+    font-style: italic;
+    font-size: 18px;
+    margin-top: 130px;
+    margin-left: 380px;
+}
+
+.space1 {
+    margin-top: 140px;
+}
+
+.character-description-background {
+    margin-left: 50px;
+    margin-top: 40px;
+    background: #302112;
+    width: 89%;
+    height: 30%;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #1c1309;
+}
+
+.red-img1 {
+    background-image: url(/css/img/Everhood/Portrait_Red_Everhood.png);
+    background-size: 250px;
+    margin-left: 40px;
+    margin-top: 65px;
+    background-repeat: no-repeat;
+    width: 23%;
+    height: 4%;
+    position: absolute;
+}
+
+.red-img2 {
+    background-image: url(/css/img/Everhood/Sprite_Red_Everhood.png);
+    background-size: 70px;
+    margin-left: 295px;
+    margin-top: 217px;
+    background-repeat: no-repeat;
+    width: 6%;
+    height: 8%;
+    position: absolute;
+}
+
+.old-red-design {
+    background-image: url(/css/img/Everhood/Concept_Artwork_Red_Scrapped_Game_Everhood.png);
+    background-size: 220px;
+    margin-left: 555px;
+    background-repeat: no-repeat;
+    width: 20%;
+    height: 3%;
+    position: absolute;
+}
+
+.geno-img {
+    background-image: url(/css/img/Other/SMRPG_NS_Geno_\(no_shadow\).png);
+    background-size: 150px;
+    margin-left: 585px;
+    margin-top: 100px;
+    background-repeat: no-repeat;
+    width: 15%;
+    height: 4%;
+    position: absolute;
+}
+
+.blue-thief-img1 {
+    background-image: url(/css/img/Everhood/Portrait_Blue_Thief_Everhood.png);
+    
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+    font-size: 32px;
+}
