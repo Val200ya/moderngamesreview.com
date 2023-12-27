@@ -3,16 +3,16 @@
     padding: 0;
 }
 
-.header-everhood {
+header {
     width: 100%;
-    height: 1005vh;
+    height: 1205vh;
     background-color: black;
 }
 
-.header-foreground-everhood {
+.header-foreground {
     width: 75%;
     background-color: #39352a;
-    height: 965vh;
+    height: 1145vh;
     position: absolute;
     margin-left: 184px;
     margin-top: 350px;
@@ -29,7 +29,7 @@
     margin-top: -41px;
 }
 
-.fun-fact-background1 {
+.fun-fact-background {
     margin-left: 60px;
     margin-top: 40px;
     background: #0e1824;
@@ -94,16 +94,68 @@
     margin-top: 140px;
 }
 
+.space2 {
+    margin-top: 70px;
+}
+
+.space3 {
+    margin-top: 80px;
+}
+
+.main-text-under-img-everhood {
+    margin-top: 480px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: #fff;
+    font-size: 25px;
+    text-align: justify;
+    text-indent: 38px;
+    line-height: 38px;
+}
+
 .character-description-background {
     margin-left: 50px;
     margin-top: 40px;
     background: #302112;
     width: 89%;
-    height: 30%;
+    height: 2100px;
     border-width: 10px;
     border-style: solid;
     border-radius: 15px;
     border-color: #1c1309;
+}
+
+.character-description-green-mage {
+    margin-top: 20px;
+    margin-left: 435px;
+    margin-right: 30px;
+    color: #fff;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 38px;
+    line-height: 38px;
+}
+
+.character-description-gnomes {
+    margin-top: 20px;
+    margin-left: 315px;
+    margin-right: 30px;
+    color: #fff;
+    font-size: 20px;
+    text-align: justify;
+    text-indent: 38px;
+    line-height: 38px;
+}
+
+.story-img {
+    background-image: url(/css/img/Everhood/Everhood_Beginning.png);
+    background-size: 750px;
+    margin-left: 175px;
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 6%;
+    position: absolute;
 }
 
 .red-img1 {
@@ -151,13 +203,77 @@
 
 .blue-thief-img1 {
     background-image: url(/css/img/Everhood/Portrait_Blue_Thief_Everhood.png);
-    
+    background-size: 250px;
+    margin-left: 40px;
+    margin-top: 65px;
+    background-repeat: no-repeat;
+    width: 23%;
+    height: 4%;
+    position: absolute;
 }
 
-footer {
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    padding: 100px;
-    font-size: 32px;
+.blue-thief-img2 {
+    background-image: url(/css/img/Everhood/Sprite_Blue_Thief_2_Everhood.png);
+    background-size: 100px;
+    margin-left: 295px;
+    margin-top: 255px;
+    background-repeat: no-repeat;
+    width: 6%;
+    height: 8%;
+    position: absolute;
+}
+
+.green-mage-img1 {
+    background-image: url(/css/img/Everhood/Portrait_Green_Mage_Everhood.png);
+    background-size: 250px;
+    margin-left: 40px;
+    margin-top: 75px;
+    background-repeat: no-repeat;
+    width: 23%;
+    height: 4%;
+    position: absolute;
+}
+
+.green-mage-img2 {
+    background-image: url(/css/img/Everhood/Sprite_Green_Mage_Everhood.png);
+    background-size: 125px;
+    margin-left: 295px;
+    margin-top: 215px;
+    background-repeat: no-repeat;
+    width: 12%;
+    height: 8%;
+    position: absolute;
+}
+
+.gnome-img {
+    background-image: url(/css/img/Everhood/Battle_Sprite_Red_Gnome_Everhood.png);
+    background-size: 125px;
+    margin-left: 100px;
+    margin-top: 75px;
+    background-repeat: no-repeat;
+    width: 23%;
+    height: 4%;
+    position: absolute;
+}
+
+.gnomes-img {
+    background-image: url(/css/img/Everhood/Battle_Spritesheet_Particle_Gnomes_Everhood.png);
+    background-size: 275px;
+    margin-left: 75px;
+    margin-top: 360px;
+    background-repeat: no-repeat;
+    width: 16%;
+    height: 5%;
+    position: absolute;
+}
+
+.ATM-battle-img {
+    background-image: url(/css/img/Everhood/Everhood_ATM_Battle.png);
+    background-size: 750px;
+    margin-left: 175px;
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 6%;
+    position: absolute;
 }

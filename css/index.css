@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 325vh;
+    background-color: #191A1D;
+}
+
+.header-foreground {
+    width: 75%;
+    height: 248vh;
+    background-color: #2F3A4A;
+    position: absolute;
+    margin-left: 184px;
+    margin-top: 350px;
+}
+
+@media screen and (max-width: 1500px) {
+    .everhood-logo {
+        background-image: url(/css/img/GameLogos/EverhoodLogo.png);
+        background-size: 410px;
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 10%;
+        position: absolute;
+        margin-left: 90px;
+    }
+    
+    .omori-logo {
+        background-image: url(/css/img/GameLogos/OMORIlogo.png);
+        background-size: 375px;
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 10%;
+        position: absolute;
+        margin-left: 625px;
+        margin-top: 20px;
+    }
+    
+    .madratdead-logo {
+        background-image: url(/css/img/GameLogos/MadRatDeadLogo.png);
+        background-size: 400px;
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 13%;
+        position: absolute;
+        margin-left: 90px;
+        margin-top: 200px;
+    }
+    
+    .kirby-logo {
+        background-image: url(/css/img/GameLogos/KirbyLogo.png);
+        background-size: 375px;
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 10%;
+        position: absolute;
+        margin-left: 625px;
+        margin-top: 260px;
+    }
+    
+    .pizzatower-logo {
+        background-image: url(/css/img/GameLogos/PizzaTowerlogo.png);
+        background-size: 375px;
+        background-repeat: no-repeat;
+        width: 50%;
+        height: 10%;
+        position: absolute;
+        margin-left: 360px;
+        margin-top: 480px;
+    }
+}
+
+
+
+/* .fun-fact-background {
+    margin-left: 100px;
+    margin-top: 40px;
+    background: #002137;
+    width: 700px;
+    height: 300px;
+    border-width: thick;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+} */
+
+/* .character-description-background {
+    margin-left: 50px;
+    margin-top: 40px;
+    background: #302112;
+    width: 89%;
+    height: 30%;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #1c1309;
+} */
