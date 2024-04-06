@@ -60,7 +60,7 @@ h1 {
 }
 
 .category-under-logo {
-    margin-top: 300px;
+    margin-top: 30px;
     margin-left: 60px;
     color: #fff;
     font-size: 35px;
@@ -124,7 +124,9 @@ h1 {
 
 iframe {
     margin-top: 40px;
-    margin-left: 270px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .music-author-title {

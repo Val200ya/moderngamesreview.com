@@ -5,28 +5,26 @@
 
 header {
     width: 100%;
-    height: 1205vh;
+    height: 1300vh;
     background-color: black;
 }
 
 .header-foreground {
-    width: 75%;
+    padding: 0 0 150px;
     background-color: #39352a;
-    height: 1145vh;
     position: absolute;
-    margin-left: 184px;
-    margin-top: 350px;
+    display: flex;
+    flex-direction: column;
+    margin: 350px 240px 0;
 }
 
-.everhood-logo {
-    background-image: url(/css/img/GameLogos/EverhoodLogo.png);
-    background-size: 650px;
+img {
     background-repeat: no-repeat;
-    width: 60%;
-    height: 4%;
-    position: absolute;
-    margin-left: 225px;
-    margin-top: -41px;
+    padding: 20px;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .fun-fact-background {
@@ -42,7 +40,9 @@ header {
 }
 
 .fun-fact-background-char-desc {
-    margin-left: 61px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 40px;
     background: #0e1824;
     width: 850px;
@@ -63,23 +63,12 @@ header {
     line-height: 38px;
 }
 
-.dev-gnomes-img {
-    background-image: url(/css/img/Everhood/Battle_Sprite_Dev_Gnomes.png);
-    background-size: 500px;
-    margin-left: 240px;
-    margin-top: 30px;
-    background-repeat: no-repeat;
-    width: 50%;
-    height: 3%;
-    position: absolute;
-}
-
-.text-under-img-dev-gnomes {
+.text-under-img {
     color: darkgrey;
     font-style: italic;
     font-size: 18px;
-    margin-top: 260px;
-    margin-left: 138px;
+    margin-top: -10px;
+    text-align: center;
 }
 
 .text-under-img-char-desc {
@@ -95,15 +84,15 @@ header {
 }
 
 .space2 {
-    margin-top: 70px;
+    margin-top: 30px;
 }
 
 .space3 {
-    margin-top: 80px;
+    margin-top: 70px;
 }
 
 .main-text-under-img-everhood {
-    margin-top: 480px;
+    margin-top: 10px;
     margin-left: 60px;
     margin-right: 60px;
     color: #fff;
@@ -114,11 +103,13 @@ header {
 }
 
 .character-description-background {
-    margin-left: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 40px;
     background: #302112;
     width: 89%;
-    height: 2100px;
+    height: 2200px;
     border-width: 10px;
     border-style: solid;
     border-radius: 15px;
@@ -126,7 +117,6 @@ header {
 }
 
 .character-description-green-mage {
-    margin-top: 20px;
     margin-left: 435px;
     margin-right: 30px;
     color: #fff;
@@ -147,25 +137,14 @@ header {
     line-height: 38px;
 }
 
-.story-img {
-    background-image: url(/css/img/Everhood/Everhood_Beginning.png);
-    background-size: 750px;
-    margin-left: 175px;
-    margin-top: 40px;
-    background-repeat: no-repeat;
-    width: 70%;
-    height: 6%;
-    position: absolute;
-}
-
 .red-img1 {
     background-image: url(/css/img/Everhood/Portrait_Red_Everhood.png);
     background-size: 250px;
     margin-left: 40px;
     margin-top: 65px;
     background-repeat: no-repeat;
-    width: 23%;
-    height: 4%;
+    width: 26%;
+    height: 3%;
     position: absolute;
 }
 
@@ -207,7 +186,7 @@ header {
     margin-left: 40px;
     margin-top: 65px;
     background-repeat: no-repeat;
-    width: 23%;
+    width: 26%;
     height: 4%;
     position: absolute;
 }
@@ -229,7 +208,7 @@ header {
     margin-left: 40px;
     margin-top: 75px;
     background-repeat: no-repeat;
-    width: 23%;
+    width: 26%;
     height: 4%;
     position: absolute;
 }
@@ -262,18 +241,7 @@ header {
     margin-left: 75px;
     margin-top: 360px;
     background-repeat: no-repeat;
-    width: 16%;
+    width: 17%;
     height: 5%;
-    position: absolute;
-}
-
-.ATM-battle-img {
-    background-image: url(/css/img/Everhood/Everhood_ATM_Battle.png);
-    background-size: 750px;
-    margin-left: 175px;
-    margin-top: 40px;
-    background-repeat: no-repeat;
-    width: 70%;
-    height: 6%;
     position: absolute;
 }
