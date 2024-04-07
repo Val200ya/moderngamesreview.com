@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-header {
+body {
     width: 100%;
     height: 525vh;
     background-color: #191A1D;
@@ -18,16 +18,6 @@ header {
     margin: 350px 240px 0;
 }
 
-main {
-    padding: 15px;
-}
-
-.logos {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 img {
     background-repeat: no-repeat;
     width: 50%;
@@ -35,14 +25,10 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-
-/* .everhood-logo {
-    
-
-    
-} */
     
 .omori-logo {
     background-image: url(/css/img/GameLogos/OMORIlogo.png);
@@ -64,17 +50,6 @@ img {
     position: absolute;
     margin-left: 90px;
     margin-top: 200px;
-}
-    
-.kirby-logo {
-    background-image: url(/css/img/GameLogos/KirbyLogo.png);
-    background-size: 375px;
-    background-repeat: no-repeat;
-    width: 50%;
-    height: 10%;
-    position: absolute;
-    margin-left: 625px;
-    margin-top: 260px;
 }
     
 .pizzatower-logo {
