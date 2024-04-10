@@ -5,12 +5,13 @@
 
 body {
     width: 100%;
-    height: 525vh;
+    display: flex;
+    flex-direction: column;
     background-color: #191A1D;
 }
 
 .header-foreground {
-    padding: 0 0 150px;
+    padding: 0 0 100px;
     background-color: #2F3A4A;
     position: absolute;
     display: flex;
