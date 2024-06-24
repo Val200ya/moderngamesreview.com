@@ -5,31 +5,28 @@
 
 body {
     width: 100%;
-    display: flex;
-    flex-direction: column;
     background-color: #191A1D;
 }
 
-.header-foreground {
-    padding: 0 0 100px;
+main {
+    width: 70%;
+    padding: 30px 0 75px;
     background-color: #2F3A4A;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    margin: 350px 240px 0;
+    margin: 100px auto 100px;
 }
 
-img {
-    background-repeat: no-repeat;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.container {
+    display: grid;
+    grid-template-columns: 60px auto 40px auto 60px;
+    grid-template-rows: 40px auto 60px auto 60px auto;
 }
+
+/* img {
+    background-repeat: no-repeat;
+    width: 80%;
+    margin: auto;
+    display: block;
+} */
     
 .omori-logo {
     background-image: url(/css/img/GameLogos/OMORIlogo.png);

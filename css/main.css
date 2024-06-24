@@ -11,19 +11,17 @@ h1 {
 }
 
 .h1-under {
-    margin-top: 10px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin: 10px 0;
     color: #fff;
     text-align: center;
     font-size: 40px;
     font-weight: bold;
+    text-indent: 38px;
+    line-height: 50px;
 }
 
 .main-text {
-    margin-top: 40px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin: 40px 60px auto 60px;
     color: #fff;
     font-size: 25px;
     text-align: justify;
@@ -32,45 +30,23 @@ h1 {
 }
 
 .main-text-black {
-    margin-top: 40px;
-    margin-left: 60px;
-    margin-right: 60px;
-    color: #000000;
+    margin: 40px 60px auto 60px;
+    color: #000;
     font-size: 25px;
     text-align: justify;
     text-indent: 38px;
     line-height: 38px;
 }
 
-main {
-    padding: 15px;
-}
-
-/* .main_items {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-} */
-
-.main_items {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
 img {
     background-repeat: no-repeat;
-    padding: 20px;
-    width: 70%;
+    width: 80%;
+    margin: auto;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .category {
-    margin-top: 40px;
-    margin-left: 60px;
+    margin: 40px auto auto 60px;
     color: #fff;
     font-size: 35px;
     font-weight: bold;
@@ -78,37 +54,8 @@ img {
 }
 
 .category-black {
-    margin-top: 40px;
-    margin-left: 60px;
-    color: #000000;
-    font-size: 35px;
-    font-weight: bold;
-    line-height: 38px;
-}
-
-.main-text-under-img {
-    margin-top: 745px;
-    margin-left: 60px;
-    margin-right: 60px;
-    color: #fff;
-    font-size: 25px;
-    text-align: justify;
-    text-indent: 38px;
-    line-height: 38px;
-}
-
-.h1-under-2 {
-    margin-top: 100px;
-    color: #fff;
-    text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-}
-
-.category-under-logo {
-    margin-top: 30px;
-    margin-left: 60px;
-    color: #fff;
+    margin: 40px auto auto 60px;
+    color: #000;
     font-size: 35px;
     font-weight: bold;
     line-height: 38px;
@@ -124,7 +71,6 @@ img {
 }
 
 .fun-fact-text {
-    margin-top: 20px;
     margin-left: 27px;
     color: #fff;
     font-size: 40px;
@@ -144,6 +90,24 @@ img {
     line-height: 38px;
 }
 
+figure {
+    position: relative;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+figure img {
+    display: block;
+}
+
+figcaption {
+    margin: 10px auto;
+    color: rgb(201, 201, 201);
+    font-style: italic;
+    font-size: 20px;
+}
+
 .fun-fact-main-text-with-img {
     margin-top: 20px;
     margin-left: 10px;
@@ -156,10 +120,7 @@ img {
 }
 
 .character-description {
-    grid-column: 3;
-    margin-top: 20px;
-    margin-left: 385px;
-    margin-right: 30px;
+    margin: 20px 30px auto;
     color: #fff;
     font-size: 20px;
     text-align: justify;
@@ -168,26 +129,14 @@ img {
 }
 
 .fun-fact-background {
-    margin-left: 60px;
-    margin-top: 40px;
+    margin: 30px auto 30px auto;
     background: #0e1824;
-    width: 720px;
-    height: 250px;
+    width: 88%;
+    padding: 20px 0 20px 0;
     border-width: thick;
     border-style: solid;
     border-radius: 15px;
     border-color: white;
-}
-
-.character-description-after-funfact {
-    margin-top: 20px;
-    margin-left: 385px;
-    margin-right: 30px;
-    color: #fff;
-    font-size: 20px;
-    text-align: justify;
-    text-indent: 38px;
-    line-height: 38px;
 }
 
 iframe {
@@ -204,16 +153,14 @@ iframe {
     color: #fff;
 }
 
+audio {
+    margin: auto;
+}
+
 .info-text {
     margin-top: 20px;
     margin-left: 60px;
     margin-right: 60px;
     color: cornflowerblue;
     font-size: 25px;
-}
-
-figure {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
 }
