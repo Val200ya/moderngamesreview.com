@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: #442e0d;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: auto;
+    background-size: cover;
+}
+
+main {
+    width: 70%;
+    padding: 0 0 75px;
+    background-color: #461009;
+    margin: 100px auto 100px;
+}
+
+.logo img {
+    width: 60%;
+}

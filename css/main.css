@@ -3,35 +3,13 @@
     padding: 0;
 }
 
-h1 {
-    margin-top: 50px;
-    color: #fff;
-    text-align: center;
-    font-size: 35px;
-}
-
-.h1-under {
-    margin: 10px 0;
-    color: #fff;
-    text-align: center;
-    font-size: 40px;
-    font-weight: bold;
-    text-indent: 38px;
-    line-height: 50px;
+.logo {
+    margin: 30px auto;
 }
 
 .main-text {
     margin: 40px 60px auto 60px;
     color: #fff;
-    font-size: 25px;
-    text-align: justify;
-    text-indent: 38px;
-    line-height: 38px;
-}
-
-.main-text-black {
-    margin: 40px 60px auto 60px;
-    color: #000;
     font-size: 25px;
     text-align: justify;
     text-indent: 38px;
@@ -53,23 +31,6 @@ img {
     line-height: 38px;
 }
 
-.category-black {
-    margin: 40px auto auto 60px;
-    color: #000;
-    font-size: 35px;
-    font-weight: bold;
-    line-height: 38px;
-}
-
-.category-under-logo-black {
-    margin-top: 30px;
-    margin-left: 60px;
-    color: #000000;
-    font-size: 35px;
-    font-weight: bold;
-    line-height: 38px;
-}
-
 .fun-fact-text {
     margin-left: 27px;
     color: #fff;
@@ -80,9 +41,7 @@ img {
 }
 
 .fun-fact-main-text {
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 45px;
+    margin: 20px 45px auto 10px;
     color: #fff;
     font-size: 25px;
     text-align: justify;
@@ -106,17 +65,6 @@ figcaption {
     color: rgb(201, 201, 201);
     font-style: italic;
     font-size: 20px;
-}
-
-.fun-fact-main-text-with-img {
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 317px;
-    color: #fff;
-    font-size: 25px;
-    text-align: justify;
-    text-indent: 38px;
-    line-height: 38px;
 }
 
 .character-description {
@@ -147,8 +95,8 @@ iframe {
 }
 
 .music-author-title {
+    margin: 40px auto 10px auto;
     text-align: center;
-    margin-top: 40px;
     font-size: 24px;
     color: #fff;
 }
@@ -163,4 +111,8 @@ audio {
     margin-right: 60px;
     color: cornflowerblue;
     font-size: 25px;
+}
+
+a {
+    color: blue;
 }

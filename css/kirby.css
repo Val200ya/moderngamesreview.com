@@ -14,13 +14,11 @@ body {
     flex-direction: column;
 }
 
-.header-foreground {
-    padding: 0 0 50px;
+main {
+    width: 70%;
+    padding: 0 0 75px;
     background-color: #fff984;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    margin: 350px 240px 0;
+    margin: 100px auto 100px;
     border-width: thick;
     border-style: solid;
     border-radius: 15px;
@@ -28,18 +26,40 @@ body {
 }
 
 img {
-    background-repeat: no-repeat;
-    padding: 20px;
     width: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.text-under-img {
-    color: #897904;
+.logo img:nth-child(2) {
+    width: 25%;
+    height: 50%;
+}
+
+.category {
+    color: #000;
+}
+
+.main-text {
+    color: #000;
+}
+
+figcaption {
+    color: #615605;
     font-style: italic;
-    font-size: 18px;
-    margin-top: -10px;
+    font-size: 20px;
     text-align: center;
+}
+
+img {
+    margin: 40px auto 40px auto;
+}
+
+figure {
+    display: block;
+}
+
+figure img {
+    margin: auto;
 }

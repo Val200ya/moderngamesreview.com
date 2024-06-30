@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background-color: #fff;
+    margin: auto;
+}
+
+main {
+    width: 70%;
+    padding: 0 0 75px;
+    background-color: #000;
+    margin: 100px auto 100px;
+    outline-width: thick;
+    outline-color: #fff;
+    outline-style: solid;
+    outline-offset: -10px;
+}
+
+.logo img {
+    width: 40%;
+}
